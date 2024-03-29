@@ -1,0 +1,16 @@
+#bd
+{
+    background-color: aquamarine;
+    background-repeat:no repeat;
+    height:100vh;
+    color:pink;
+}
+#para1,#para2
+{
+    background-color:skyblue;
+    padding-bottom:50px;
+    margin-top:50px;
+    border:1px white;
+
+
+}
