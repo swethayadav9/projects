@@ -12,3 +12,14 @@ tribute
 
 
 youtube- share- embed- copy
+
+
+5-4-2024
+
+SELECTORS:
+selectors is a way to select an element into css styles.
+you can select an element using tagname,classname,id generally.there are several ways to select an element.
+syntax:
+selectors{
+    property
+}

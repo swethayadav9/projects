@@ -1,0 +1,130 @@
+JAVASCRIPT is called the language of web. it is the programming language for web development.
+JS is used for fnctioning of the website.
+JS is actually maintained by Ecma script.we are currently in ES153 but popular is ES6.
+JS files used extension .JS
+you can add internal JAVASCRIPT or external JS.
+
+For  Internal JS ==> you can write JS inside script tag.
+java and JS are not related at all. 1994==>Livescript==>javascript because java is popular.
+<script>
+    //internal
+    </script>
+
+//external 
+<script src=" ./file">
+</script>
+ques
+1.how to write comments in JS?
+Comments are used for better understanding and readability.
+there are two types pf comments in JS.
+1.single line--
+//comment
+2.multi line--
+/* comment*/
+
+ques2.what are essential to know for a programming language?
+1.variable
+2.data types
+3.operators
+4.controls
+5.loops
+
+ques3.what is a variable? how to declare one?
+variables are used to store the data. In JS,there are three ways to declare a variable
+1.var variable-name;
+2.let variable-name;
+3.const variable-name;
+let const are ES6 features
+
+ques4.what are the basic widow methods?
+There are three basic window methods.
+1.alert()--used to print some info as an alert.
+2.prompt()--used to ge input for user
+3.confirm()--it will ask you to conform
+
+ques5.what are the different data types in JS?
+Data Types defines what type the data belobgs.There are primirily two types 
+1.primitive data types:
+primitive data types are used to define any data .they are number,string,boolean,null,undefined.
+2.non-primitive data types:
+They use primitive data type.these are aksi called referenace data types.
+arrays,objects,functions.
+
+Basically JS is used duck typing or dynamic data typing means you cant fix one data type for one variable
+
+To know the data type of a variable,you can use operator "typeof()"
+
+ques6.Explain 'number' data type.
+any numerical values in JS , it automaticaly assigns number data type. Even decimals are also considered as number data type.
+  There are some pre-defined methods for numbers
+  1.var num= 25.365;
+  num.toFixed(2)--> it will round figure number into 2 decimal points.
+  2.var num=26.369;
+  num.to presicion(3)--> it will round figure number into only 3 digits from starting.
+  3.var num=25;
+  num.toString(2)-->it will convert the given number into respect base number-->numinto binary.
+
+
+
+----------------MATH METHODS--------
+Math methods are default methods used for specific mathamatical operations.
+some of the Math methods are:
+1.Math.sqr(num)-->returns the squae root of num
+2.Math.cbrt(num)-->returns the cube root of num
+3.Math.pow(x,y)-->returns the result of x power y
+4.Math.log(x)-->returns logarithemic value of x
+5.Math.exp(x)-->returns result of e power x
+6.Math.ceil(x)-->give the largest near possible number in decimal number line
+7.Math.floor(x)-->given the smallest neat possible number in decimal number line
+8.Math.round(num)-->will round figure the value of num
+9.Math.random()-->will generate random valu from 0.0 to 1.0
+10.Math.max(x,y) and Math.min(x,y)-->will genetate maximum values from given values
+11.Math.abs(-x)-->will remove the negitivity and print results
+
+
+
+--------------------STRING METHODS------------------
+String are used for alphanumerics.Strings can be represented inJS by three ways
+1.Single quotes:
+var s='swetha';
+2.double quotes:
+var s="annaya";
+There is no difference  for single quote and double quote based ob requirement we will use and better maintain consistency
+3.Template literal:
+it takes the vaues without breaking flow
+ var str='the value is ${x}'
+
+ METHODS:
+ str.length-->return the length of the string(no.of characters)
+ Eg:"the is js cource"-->18 char
+ str.touppercase()-->will convert str into Uppercase
+ str.tolowercase()-->will convert str into Lowercase
+ Eg:"swetha".toUpperCase()-->SWETHA
+ "SWETHA".toLowerCase()-->swetha
+ str.slice('start','end')-->will reurn piece of str from start (inculded) index to end (excluded) index
+ "swetha".slice(2,5)-->eth
+
+ str.substr(start) or str.substr(start,length):
+ -->will return from start to end of string or from start to length 
+ "swetha".substr(1)-->wetha
+ "swetha".substr(1,3)-->wet
+
+ str.endsWith('x') or str.startWith('x')-->check whether str is ending with x or not 
+ /str is starting with  x or not-->return tuue or false
+ "swetha".endsWith('ha')-->true
+
+ str.split('deliiter')-->used to split the characters based on delimitor "swe tha".split(' ')-->["swe tha"]
+
+ str.join('delimiter')-->joins the array of values based on delimiter 
+ ["swe"," tha"].join(' ')-->"swe tha"
+
+ str.indexOf('char')-->returns the index of specific character "swetha".indexOf('a')
+ -->2-->always returns first occurence for last occurence-->lastIndexOf
+
+
+
+
+
+
+ 
+

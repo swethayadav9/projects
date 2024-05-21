@@ -1,0 +1,79 @@
+img{
+    float:right;
+}
+body{
+    background-color: blue;
+}
+.main{
+    width: 100%;
+    background-color: aqua;
+    height: 200px;
+}
+nav{
+    float:right;
+}
+li{
+
+    float:right;
+    margin: 10px;
+    list-style-type: none;
+    background-color: antiquewhite;
+    box-sizing: border-box;
+    padding: 5px;
+}
+a{
+    text-decoration: none;
+    border-radius: 20px;
+}
+a:hover{
+    color: white;
+
+}
+li:hover{
+    background-color: black;
+}
+.left,.right{
+    width: 50%;
+    background-color: red;
+    height: 100px;
+    border: 2px solid black;
+}
+.left{
+    float: left;
+}
+p{
+    clear:right;
+}
+p{
+    clear:both;
+}
+body{
+    height: 100vh;
+    width: 100vw;
+}
+/*position will define exactly where an element. there are 5 positions like static,absolite,fixed,relative,sticky*/
+
+.positionDemo{
+    height:500px;
+    width: 200px;
+    background-color: red;
+}
+.box{
+    height: 100px;
+    width: 100px;
+    background-color: red;
+    margin: 10px;
+    color: white;
+}
+.first{
+    position:relative;
+    left:100px;
+    top:100px;
+    z-index: 1;
+}
+/*sticky-relative+fixed*/
+.second{
+    background-color: green;
+    z-index: 100;
+}
+    
