@@ -1,68 +1,33 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>FESTIVAL LOGO</title>
-  <!--  <link rel="stylesheet" href="style.css">-->
-    <style>
-     .festival-logo {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 1000px;
-    height: 700px;
-    background-color: rgb(160, 228, 97);
-    border-radius: 10px;
-    box-shadow: 0 0 20px rgba(12, 12, 12, 0.2);
-    
-  }
-  
-  .fireworks {
-    font-size: 300px;
-    color:black;
-    margin-right: 20px;
-  }
-  
-  .text {
-    font-size: 40px;
-    font-weight: bold;
-    color: black
-  }
-  
-  .confetti {
-    font-size: 50px;
-    color: #ffffff;
-    margin-left: 20px;
-  }
-     
-    </style>
-</head>
-<body>
 
-   
-<div class="festival-logo" >
-    <div class="fireworks">
-      &#127881;
-    </div>
-    <div class="text">
-      SANKRANTHI
-       FESTIVAL
-       <h4>HAPPY SANKRANTHI TO MY EMPLOYEES </h4>
-       
-    </div>
-    <div class="confetti">
-      &#127878;&#127879;&#127878;
-    </div>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Portfolio</title>
+        <link rel="stylesheet" href="style.css">
+        
+    </head>
+<body class style="background-color: blue;">
+  <!--We can use in select id=colors name colors-->
+  <select name="colors" id="colors" onchange="colors()">
+  <option value="colors" style="background-color: black;">colors</option>
+  <option value="orange" style="background-color: orange;">orange</option>
+  <option value="green" style="background-color:green;">green</option>
+  <option value="red" style="background-color: red;">red</option>
+</select>
+<div id="counter">
+  <h2 id="oddoreven" onclick="number">odd</h2>
+  <h1>counter</h1>
+  <p id="count">-2</p>
+  <div class="buttons">
+    <button onclick="incr()">+</button>
+    <button onclick="desc()">-</button>
+    <button onclick="reset()">reset</button>
   </div>
-  <h2>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel, blanditiis!</h2>
-
-  
-
-
-
-
-
-    
+<button id="btnl" onclick="changeid()">&#9728</button>
+<script src="./scriptdl.js"></script>
+</div>
+</header>
 </body>
 </html>

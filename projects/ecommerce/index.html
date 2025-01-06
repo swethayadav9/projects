@@ -1,69 +1,42 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-  <title>Ecommerce Website</title>
-  <link rel="stylesheet" href="styles.css">
-  
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./CSS/style.css">
+    <link rel="stylesheet" href="./CSS/common.css">
 </head>
 <body>
-  <header>
-    <nav>
-      <ul>
-        <li><a href="#">Home</a></li>
-        <li><a href="#">Products</a></li>
-        <li><a href="#">Cart</a></li>
-      </ul>
-    </nav>
-  </header>
-  <main>
-    <section class="products">
-      <h2>Products</h2>
-      <ul>
-        <li>
-          <img src="product1.jpg" alt="Product 1" height="600">
-          <h3>Product 1</h3>
-          <p>Dell is a well-known American technology company that has been offering a wide range of products and services for decades. From personal computers to data storage devices and from servers to computer peripherals, Dell has always been a reliable choice for customers worldwide.
+    <header>
+        <div class="logo">Some<span>Kart</span></div>
+        <div class="menu">
+            <button><a href="./Pages/checkout.html">cart</a><span id="count"></span></button>
+            <button id="login"><a href="./Pages/Login.html">Login</a></button>
+        </div>
+    </header>
+    <main id="main"></main>
+    <footer>This site belongs to Xyz &copy; 2024</footer>
+    <script src="./JS/index.js" type="module"></script>
+    <script src="./JS/common.js" type="module"></script>
+    <script type="module">
+        // Import the functions you need from the SDKs you need
+        import { initializeApp } from "https://www.gstatic.com/firebasejs/10.12.0/firebase-app.js";
+        // TODO: Add SDKs for Firebase products that you want to use
+        // https://firebase.google.com/docs/web/setup#available-libraries
 
-            One of Dell’s most popular and renowned products is its laptop series. In this article, we will share the details about Dell’s laptop series, its different models, and the features that make them stand out from the rest.
-            
-            </p>
-          <p>Price: $10.99</p>
-          <button>Add to Cart</button>
-        </li>
-        <li>
-          <img src="product2.jpg" alt="Product 2">
-          <h3>Product 2</h3>
-          <p>Start by connecting your iPad to its Power Adapter and allow the iPad to charge for at least an hour. This step is advised as a battery with very low charge, or is failing, may produce symptoms that emulate a boot loop.
+        // Your web app's Firebase configuration
+        const firebaseConfig = {
+            apiKey: "AIzaSyDhyXg_1D_w5oHvyqORtsH2itVWUtU_4gU",
+            authDomain: "fir-30a0a.firebaseapp.com",
+            projectId: "fir-30a0a",
+            storageBucket: "fir-30a0a.appspot.com",
+            messagingSenderId: "988474708812",
+            appId: "1:988474708812:web:a9234a7fc7b60eea80f5e9"
+        };
 
-
-
-            If the problem fails to stabilise after an hour, whilst still connected to the Power Adapter, attempt a forced restart of the iPad:
-            
-            
-            
-            On an iPad with a Home button: Press and hold the top button and the Home button at the same time. When the Apple logo appears, release both buttons.
-            On other iPad models: Press and quickly release the volume up button, press and quickly release the volume down button, then press and hold the top button. When the Apple logo appears, release the button.</p>
-          <p>Price: $9.99</p>
-          <button>Add to Cart</button>
-        </li>
-      </ul>
-    </section>
-    <section class="cart">
-        <h2>Cart</h2>
-        <ul>
-          <li>
-            <img src="product3.jpg" alt="Product 1">
-            <h3>Product 3</h3>
-            <p>Wireless headphones provide freedom to exist without being tied down by cables, and can be in-ear, over-the-ear or on-ear types. Wireless technologies are getting better sounding all the time, but sometimes you may pay a bit more for wireless headphones compared to their wired counterpart.</p>
-            <p>Price: $10.99</p>
-            <button>Remove</button>
-          </li>
-        </ul>
-      </section>
-    </main>
-    <footer>
-      
-    </footer>
-  </body>
-  </html>
-  
+        // Initialize Firebase
+        const app = initializeApp(firebaseConfig);
+    </script>
+</body>
+</html>
