@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nitflix</title>
+    <link rel="shortcut icon" href="fev5-removebg-preview.png" type="image/x-icon">
+    <style>
+        body{
+            background-image: url(https://imgsrv2.voi.id/oMPVTt6tQ1LaA3A8ih0hUs7u0rwBUMdn8AyY4xzHQf0/auto/1200/675/sm/1/bG9jYWw6Ly8vcHVibGlzaGVycy8yNTA3NjIvMjAyMzAyMDMxNjA3LW1haW4uY3JvcHBlZF8xNjc1NDE1MjU4LmpwZWc.jpg);
+            font-family: Arial, Helvetica, sans-serif;
+            /* height: 100%; */
+        }
+        .parent{
+            height: 700px;
+            width: 1600px;
+            display: grid;
+            place-items: center;
+            
+        }
+        .child{
+            height: 500px;
+            width: 310px;
+            border: 2px solid black;
+            padding-top: 28px;
+            padding-bottom: 48px;
+            padding-left: 68px;
+            padding-right: 68px;
+            justify-content: center;
+            border-radius: 5px;
+            background-color: black;
+            color: white;
+            opacity: 0.8;
+            
+            
+        }
+        #inputemial{
+            height: 45px;
+            width: 100%;
+            align-items: center;
+            border-radius: 5px;
+            padding-left: 10px;
+            font-weight: 400;
+            font-size: 17px;
+            background-color: black;
+            color: white;
+        }
+        #inputpass{
+            height: 45px;
+            width: 100%;
+            border-radius: 5px;
+            padding-left: 10px;
+            font-weight: 400;
+            font-size: 17px;
+            background-color: black;
+            color: white;
+        }
+        #btn{
+            height: 39px;
+            width: 325px;
+            border-radius:5px;
+            padding-left: 10px;
+            font-weight: 700;
+            font-size: 17px;
+            background-color: #E50914;
+            color: white;
+        }
+        .child>#forgetpass{
+
+            text-align: center;
+            
+        }
+        .child>#forgetpass>a{
+            text-decoration: none;
+            color: white;
+        }
+        .child>#forgetpass>a:hover{
+            text-decoration: underline;
+        }
+        
+        .child>#desc{
+            font-size: 13px;
+            font-weight: 500;
+        }
+        body>img{
+            height: 40px;
+            margin-top: 17px;
+            margin-left: 180px;
+        }
+
+    </style>
+</head>
+<body>
+    <img src="https://imgsrv2.voi.id/oMPVTt6tQ1LaA3A8ih0hUs7u0rwBUMdn8AyY4xzHQf0/auto/1200/675/sm/1/bG9jYWw6Ly8vcHVibGlzaGVycy8yNTA3NjIvMjAyMzAyMDMxNjA3LW1haW4uY3JvcHBlZF8xNjc1NDE1MjU4LmpwZWc.jpg" alt="">
+    <div class="parent">
+        <div class="child">
+            <h1>Sign In</h1>
+            <input type="email" name="" placeholder="Email or phone number" id="inputemial"> <br> <br>
+            <input type="password" name="" placeholder="Password" id="inputpass"> <br> <br>
+            <input type="button" value="Sign In" id="btn"> <br>
+            <p id="forgetpass"> <a href="#">Forgot password?</a></p> <br> <br>
+            <input type="checkbox" name="rememberme" id=""> <label for="rememberme">Remember me</label><br>
+            <p>New to Netflix? <strong>Sign up now</strong></p> <p  id="desc">This page is protected by Google reCAPTCHA to ensure you're not a bot. <a href="#">Learn more.</a></p>
+        </div>
+    </div>
+</body>
+</html>
